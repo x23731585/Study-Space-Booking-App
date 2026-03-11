@@ -13,6 +13,6 @@ package com.mycompany.studyspacebookingapp;
 public class StudySpaceBookingApp {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+       new LoginUI().setVisible(true);
     }
 }
