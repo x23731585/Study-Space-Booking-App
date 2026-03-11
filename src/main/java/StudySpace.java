@@ -66,7 +66,7 @@ public class StudySpace implements Bookable {
         available = true;
     }
 
-    @Override
+    @Override //coverts object details to string 
     public String toString() {
         return "StudySpace{" +
                 "spaceId=" + spaceId +

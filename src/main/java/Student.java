@@ -7,20 +7,22 @@
  *
  * @author steve
  */
-// Student.java
+// Student.java extends user
 public class Student extends User {
     private String course;
 
-
+    //constructors
     public Student(int userId, String name, String course) {
         super(userId, name);
         this.course = course;
     }
-
+    
+    //getters
     public String getCourse() {
         return course;
     }
-
+    
+    //setters
     public void setCourse(String course) {
         this.course = course;
     }

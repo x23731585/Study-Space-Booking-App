@@ -15,6 +15,7 @@ public class Booking {
     private String bookingDate;
 
 
+    //Constructor
     public Booking(int bookingId, Student student, StudySpace studySpace, String bookingDate) {
         this.bookingId = bookingId;
         this.student = student;
@@ -22,10 +23,12 @@ public class Booking {
         this.bookingDate = bookingDate;
     }
 
+    //getters
     public int getBookingId() {
         return bookingId;
     }
-
+    
+    //setters
     public void setBookingId(int bookingId) {
         this.bookingId = bookingId;
     }
