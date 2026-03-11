@@ -28,7 +28,7 @@ public class StudySpaceList {
         size = 0;
     }
 
-    // Checks if the list is empty
+  
     public boolean isEmpty() {
         return (size == 0);
     }
@@ -68,7 +68,7 @@ public class StudySpaceList {
         size++;
     }
 
-    // Returns the element at a specific position
+    // Returns the element
     public Object get(int index) {
         setCurrent(index);
         return curr.getElement();
@@ -112,12 +112,12 @@ public class StudySpaceList {
         }
     }
 
-    // Traverses the list and returns all elements as a string
+    //returns all elements as a string
     public String printList() {
 
         String list = "";
 
-       //loop through each node from head
+       //loop through each node
         for (Node node = head; node != null; node = node.getNext()) {
 
            
@@ -125,5 +125,6 @@ public class StudySpaceList {
         }
 
         return list;
-    }
+        
+    } 
 }
