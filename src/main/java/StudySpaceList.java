@@ -2,7 +2,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.mycompany.studyspacebookingapp.DATASTRUCTURE;
+
+
+
 
 /**
  *
@@ -17,7 +19,6 @@ public class StudySpaceList {
     private Node head;
     private Node last;
     private Node curr;
-    // Number of elements in the list
     private int size;
 
     // Constructor 
@@ -123,7 +124,6 @@ public class StudySpaceList {
            
             list = list + node.getElement() + "\n";
         }
-
         return list;
         
     } 
