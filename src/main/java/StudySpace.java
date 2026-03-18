@@ -12,15 +12,17 @@ public class StudySpace implements Bookable {
     private int spaceId;
     private String spaceName;
     private String location;
+    private int capacity;
     private boolean available;
 
     public StudySpace() {
     }
 
-    public StudySpace(int spaceId, String spaceName, String location, boolean available) {
+    public StudySpace(int spaceId, String spaceName, String location,int capacity, boolean available) {
         this.spaceId = spaceId;
         this.spaceName = spaceName;
         this.location = location;
+        this.capacity = capacity;
         this.available = available;
     }
 
@@ -43,6 +45,12 @@ public class StudySpace implements Bookable {
     public String getLocation() {
         return location;
     }
+    
+    public int getCapacity() {
+        return capacity;
+    }
+    
+    
 
     public void setLocation(String location) {
         this.location = location;

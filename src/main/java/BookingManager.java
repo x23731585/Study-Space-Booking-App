@@ -78,4 +78,8 @@ public class BookingManager {
         return booking;
     }
 
+    
+     public String viewBookings() {
+        return bookingStack.displayStack();
+    }
 }

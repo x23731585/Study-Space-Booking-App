@@ -5,11 +5,6 @@
  */
 
 
-
-/**
- *
- * @author steve
- */
 public class StudySpaceBookingApp {
 
     public static void main(String[] args) {

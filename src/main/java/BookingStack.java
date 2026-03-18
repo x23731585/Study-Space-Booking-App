@@ -43,5 +43,19 @@ public class BookingStack {
         return theStack.size();
     }
     
+    public String displayStack() {
+     String str = "";
+
+        if (theStack.isEmpty()) {
+         str = "No bookings";
+    }
+        else {
+            for (int i = 0; i < theStack.size(); i++) {
+             str = str + theStack.get(i) + "\n";
+         }}
+
+        return str;
+    }
+    
 
 }
